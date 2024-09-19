@@ -18,8 +18,8 @@ The goal of this assignment was to automate the stopping and starting of EC2 ins
    - Second instance tag: `Key: Action`, `Value: Auto-Start`.
    - Launched both instances.
 
-3. **Writing the Lambda Function Code:**
-   - Developed a Python-based Lambda function using Boto3 to describe EC2 instances, check their tags, and either stop or start the instances.
+3. **Writing the Lambda Function Code:**{ Attached the python code ec2stopstart.py}
+   - A Python-based Lambda function using Boto3 to describe EC2 instances, check their tags, and either stop or start the instances.
      
 4. **Testing:**
    - Manually tested the function by invoking it through the Lambda console.
@@ -39,8 +39,8 @@ The goal of this assignment was to automate the deletion of files older than 30 
    - Navigated to the Lambda page and named the function `S3OldData`.
    - Used an existing IAM role (`prashant-s3-lambda-role`) which had permissions to access S3 and manage storage.
 
-2. **Writing the Lambda Function Code:**
-   - Developed a Python-based Lambda function using Boto3 to list objects in an S3 bucket and delete those older than 30 days.
+2. **Writing the Lambda Function Code:** {Attached the python code s3older.py}
+   - A Python-based Lambda function using Boto3 to list objects in an S3 bucket and delete those older than 30 days.
 
 3. **Testing:**
    - Manually invoked the Lambda function and verified that the files were deleted successfully.
