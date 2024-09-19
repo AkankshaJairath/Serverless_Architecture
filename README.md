@@ -80,7 +80,7 @@ Automatically analyze and categorize the sentiment of user reviews using Amazon 
    - Used an existing IAM role (`Lambda_Test`) with permissions to access and  manage Comprehend.
 
 2. **Writing the Lambda Function Code:** {Attached the file comprehend.py}
-3. 
+   
    -A Python-based Lambda function using Boto3 to extract the user review from an event and use Amazon Comprehend to analyze the sentiment of the review and Log the sentiment result.
 
    -Set the test with below JSON
